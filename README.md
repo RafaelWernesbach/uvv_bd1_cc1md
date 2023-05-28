@@ -7,7 +7,9 @@
 
 
 ## DESCRIÇÃO
-- O Pset o consiste em uma série de problemas ou perguntas que variam em nível de dificuldade e complexidade. Esses problemas podem exigir cálculos, análise de dados, resolução de equações, desenvolvimento de algoritmos ou qualquer outro tipo de atividade relacionada ao assunto em questão.
+- O Pset se trata de um conjunto de problemas e atividades complexas, que são propostas ao aluno
+ para que as resolva, com o intiuto de desenvolver e exercitar a proatividade do 
+ estudante a partir do ponto que se torna necessario pesquisar e consultar sobre o assunto por conta própria, a fim de solucionar o problema proposto.
 
 ## PROGRAMAS QUE FORAM UTILIZADOS
 
@@ -23,4 +25,9 @@
 - [SCRIPT GLOBAL](pset1/cc1md_202308237_postgresql.sql)
 - [PROJETO ARCHITECT](pset1/cc1md_202308237_postgresql.architect)
 - [PROJETO PDF](pset1/cc1md_202308237_postgresql.pdf)
+
+### COMENTÁRIOS
+
+- Este foi o primeiro pset que tive a chance de fazer, posso afirmar que sua conclusão foi bastante gratificante
+
 

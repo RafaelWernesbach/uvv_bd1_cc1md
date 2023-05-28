@@ -9,7 +9,7 @@
 ## DESCRIÇÃO
 - O Pset se trata de um conjunto de problemas e atividades complexas, que são propostas ao aluno
  para que as resolva, com o intiuto de desenvolver e exercitar a proatividade do 
- estudante a partir do ponto que se torna necessario pesquisar e consultar sobre o assunto por conta própria, a fim de solucionar o problema proposto.
+ estudante a partir do ponto que se torna necessário pesquisar e consultar sobre o assunto por conta própria, a fim de solucionar o problema proposto.
 
 ## PROGRAMAS QUE FORAM UTILIZADOS
 

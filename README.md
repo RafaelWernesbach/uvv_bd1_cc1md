@@ -26,8 +26,6 @@
 - [PROJETO ARCHITECT](pset1/cc1md_202308237_postgresql.architect)
 - [PROJETO PDF](pset1/cc1md_202308237_postgresql.pdf)
 
-### COMENTÁRIOS
 
-- Este foi o primeiro pset que tive a chance de fazer, posso afirmar que sua conclusão foi bastante gratificante
 
 

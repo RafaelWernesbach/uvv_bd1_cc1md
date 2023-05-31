@@ -29,7 +29,7 @@ DROP DATABASE IF EXISTS uvv;
 
 
 
-DROP USER IF EXISTS RAFAEL;
+DROP USER IF EXISTS rafael;
 
 
 
@@ -37,7 +37,8 @@ DROP USER IF EXISTS RAFAEL;
 
 
 
-CREATE USER RAFAEL
+CREATE USER rafael 
+WITH ENCRYPTED PASSWORD 'pset'
 CREATEDB
 CREATEROLE
 LOGIN
@@ -50,12 +51,14 @@ LOGIN
 
 
   CREATE DATABASE uvv
-  OWNER RAFAEL
+  OWNER = rafael
   template = template0
   encoding = UTF8
   lc_collate = 'pt_BR.UTF-8'
   lc_ctype = 'pt_BR.UTF-8'
   ALLOW_CONNECTIONS = TRUE;
+
+ \c "host=localhost dbname=uvv user=rafael password=pset"
 
  
 -- CRIAÇÃO DO SCHEMA "lojas"
@@ -67,10 +70,11 @@ CREATE SCHEMA lojas;
 -- TRANSFORMANDO O USUÁRIO "RAFAEL" PROPRIETÁRIO DO SCHEMA "lojas"
 
 
-ALTER SCHEMA lojas OWNER TO RAFAEL;
+ALTER SCHEMA lojas OWNER TO rafael;
 
 
 -- INICÍO DA CRIAÇÃO DAS TABELAS
+
 
 
 
@@ -316,6 +320,11 @@ ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
 
+-- COMENTARIO DO BANCO DE DADOS
+
+COMMENT ON DATABASE uvv IS 'Banco de dados uvv';
+
+
 -- COMENTÁRIOS DAS TABELAS
 
 
@@ -411,5 +420,3 @@ COMMENT ON COLUMN lojas.pedidos_itens.quantidade      IS 'Quantidade de itens do
 -- O trabalho se mostrou desafiador do começo ao fim, acredito que a parte mais facil tenha sido a elaboração do diagrama 
 -- relacional de forma correta, o que ja me custou alguns dias, entretanto a conclusão do script global foi realizadora, posso afirmar
 -- através deste trabalho pude ampliar meus conhecimentos e me tornar capaz de resolver problemas complexos por conta própria.
-
-

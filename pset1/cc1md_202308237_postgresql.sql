@@ -39,6 +39,7 @@ DROP USER IF EXISTS rafael;
 
 CREATE USER rafael 
 WITH ENCRYPTED PASSWORD 'pset'
+SUPERUSER
 CREATEDB
 CREATEROLE
 LOGIN
@@ -57,8 +58,6 @@ LOGIN
   lc_collate = 'pt_BR.UTF-8'
   lc_ctype = 'pt_BR.UTF-8'
   ALLOW_CONNECTIONS = TRUE;
-  
-  -- CONEXÃO
 
  \c "host=localhost dbname=uvv user=rafael password=pset"
 

@@ -32,6 +32,6 @@
 
 ## ARQUIVOS
 
-- [SCRIPT GLOBAL](pset1/cc1md_202308237_postgresql.sql)
-- [PROJETO ARCHITECT](pset1/cc1md_202308237_postgresql.architect)
-- [PROJETO CONCEITUAL]()
+- [SCRIPT GLOBAL](projeto_integrado_grupo2_cc1md.sql)
+- [PROJETO ARCHITECT](projeto_integrado_grupo2_cc1md.architect)
+- [PROJETO CONCEITUAL](projeto_integrado_grupo2_cc1md.brM3)

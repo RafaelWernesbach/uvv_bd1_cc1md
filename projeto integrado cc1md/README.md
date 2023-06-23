@@ -13,12 +13,12 @@
 
 ## DESCRIÇÃO
 
-### O projeto integrado é uma atividade interdiciplinar composta pelas materias:
+### O projeto integrado é uma atividade interdiciplinar composta pelas matérias:
 - "Desing e Desenvolvimento de Banco de Dados"
 - "Experiência e Interface com o Usuário"
 - "Construção de Software para Web"
 
-### Este diretório referencia a parte de Desing e Desenvolvimento de Banco de Dados lecionada pelo professor Abrantes Araujo Silva Filho
+### Este diretório referência a parte de Desing e Desenvolvimento de Banco de Dados lecionada pelo professor Abrantes Araujo Silva Filho
 
 ## PROGRAMAS QUE FORAM UTILIZADOS
 
